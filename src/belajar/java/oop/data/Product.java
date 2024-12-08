@@ -1,10 +1,10 @@
 package belajar.java.oop.data;
 
-class Product {
-  String name;
-  int price;
+public class Product {
+  public String name;
+  public int price;
 
-  Product(String name, int price){
+  public Product(String name, int price){
     this.name = name;
     this.price = price;
   }
