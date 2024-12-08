@@ -1,4 +1,4 @@
-public class PolimorphismApp {
+public class PolymorphismApp {
   public static void main(String[] args) {
 
     Employee employee = new Employee("Dyaz");
