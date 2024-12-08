@@ -8,6 +8,14 @@ class Person {
     address = paramAdddress;
   }
 
+  Person(String paramName){
+    this(paramName, null);
+  }
+
+  Person(){
+    this(null);
+  }
+
   void sayHello(String parmName) {
     System.out.println("Hello, " + parmName + " My name is " + name);
   }

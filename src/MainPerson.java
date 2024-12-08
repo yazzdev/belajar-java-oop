@@ -9,10 +9,12 @@ public class MainPerson {
 
     person1.sayHello("Eko");
 
-    Person person2 = new Person("Budi", "Bandung");
+    Person person2 = new Person("Budi");
+    person2.sayHello("Nala");
 
     Person person3;
-    person3 = new Person("Sinta", "Banten");
+    person3 = new Person();
+    person3.name = "Sinta";
     person3.sayHello("Dyaz");
   }
 }
