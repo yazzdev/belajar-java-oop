@@ -1,4 +1,4 @@
-public class MainPerson {
+public class PersonApp {
   public static void main(String[] args) {
 
     var person1 = new Person("Dyaz", "Jakarta");

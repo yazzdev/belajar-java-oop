@@ -1,4 +1,4 @@
-public class MainManager {
+public class ManagerApp {
   public static void main(String[] args) {
     var manager = new Manager();
     manager.name = "Dyaz";
