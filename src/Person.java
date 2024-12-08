@@ -3,20 +3,20 @@ class Person {
   String address;
   final String country = "Indonesia";
 
-  Person(String paramName, String paramAdddress){
-    name = paramName;
-    address = paramAdddress;
+  Person(String name, String address){
+    name = name;
+    address = address;
   }
 
-  Person(String paramName){
-    this(paramName, null);
+  Person(String name){
+    this(name, null);
   }
 
   Person(){
     this(null);
   }
 
-  void sayHello(String parmName) {
-    System.out.println("Hello, " + parmName + " My name is " + name);
+  void sayHello(String name) {
+    System.out.println("Hello, " + name + " My name is " + name);
   }
 }
