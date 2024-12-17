@@ -29,5 +29,9 @@ public class ValidationApp {
       System.out.println("Gak Error, Selalu di eksekusi!!");
     }
 
+    LoginRequest loginRequest3 = new LoginRequest(null, null);
+    ValidationUtil.validateRuntime(loginRequest3);
+    System.out.println("sukses");
+
   }
 }
