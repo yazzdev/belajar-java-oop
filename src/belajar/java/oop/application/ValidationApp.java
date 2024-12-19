@@ -1,10 +1,13 @@
 package belajar.java.oop.application;
 
+import belajar.java.oop.annotation.Fancy;
 import belajar.java.oop.data.LoginRequest;
 import belajar.java.oop.error.ValidationException;
 import belajar.java.oop.utils.ValidationUtil;
 
 public class ValidationApp {
+
+  @Fancy(name="Login", tags = {"application", "java"})
   public static void main(String[] args) {
 
     LoginRequest loginRequest = new LoginRequest("", null);
