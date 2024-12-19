@@ -1,7 +1,9 @@
 package belajar.java.oop.application;
 
+import belajar.java.oop.annotation.Fancy;
 import belajar.java.oop.data.*;
 
+@Fancy(name="Mac Book", tags = {"application", "java"})
 public class Application {
   public static void main(String[] args) {
     Product product = new Product("Mac Book Pro", 30_000_000);
